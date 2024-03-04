@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fontawesome.com/releases/v5.5.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Robobto&display=swap" rel="stylesheet">
+    
+    <title>Portfolio</title>
+</head>
+<body>
+  
+  <nav id="desktop-nav">
+    <div class="logo">Ngeyane Okuhle</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- <nav id="hamburger-nav">
+    <div class="logo">Ngeyane Okuhle</div>
+     <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div> -->
+      <div class="menu-links">
+        <ul>
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+      </div>
+
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="O.NGEANE.jpeg" alt="Ngeyane Okuhle profile picture" />
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Okuhle Ngeyane</h1>
+        <p class="section__text__p2">SoftWare Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')" >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location" href="">
+            Contact Info
+          </button>
+        </div>
+        <div class="socials-container">
+        
+
+          <a href="#" target="_blank" class="home__social-link">
+              <i class="ri-linkedin-box-line"></i>
+          </a>
+
+          <a href="#" target="_blank" class="home__social-link">
+              <i class="ri-github-line"></i>
+          </a>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
